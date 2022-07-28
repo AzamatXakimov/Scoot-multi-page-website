@@ -61,7 +61,15 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
-
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
 /* PAGE 1: HOME-----------------------------------  */
 
 
@@ -273,6 +281,8 @@ only screen and (                min-resolution: 2dppx) {
     position: relative;
     top: 0;
     left: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
     padding: 102px 0;
     background-color: var(--main-text-color);
 }
@@ -380,6 +390,40 @@ only screen and (                min-resolution: 2dppx) {
     background-color: var(--main-circle-bg-color);
 }
 
+.site-footer {
+    padding-top: 35px;
+    padding-bottom: 32px;
+    background-color: #333a44;
+}
+
+.site-footer__box {
+    display: flex;
+    align-items: center;
+}
+
+
+.site-footer__list {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.site-footer__item {
+    margin-left: 24px;
+}
+
+.site-footer__link {
+    text-decoration: none;
+    color: var(--main-link-bg-color);
+    transition: 0.3s ease;
+}
+.site-footer__link:hover     {
+    color: var(--main-circle-bg-color);
+}
 
 /* PAGE 2: ABOUT-----------------------------------  */
 

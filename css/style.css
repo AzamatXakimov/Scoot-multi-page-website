@@ -269,7 +269,116 @@ only screen and (                min-resolution: 2dppx) {
 
 /* ARTICLE  */
 
+.site-article {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 102px 0;
+    background-color: var(--main-text-color);
+}
 
+.site-article__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-article__textbox {
+    width: 415px;
+    margin-top: auto;
+}
+
+.site-article__text {
+    margin: 0;
+    font-size: 48px;
+    line-height: 48px;
+
+    letter-spacing: -2.14286px;
+    
+    color: var(--main-body-bg-color);
+    
+}
+
+.site-article__links{
+    display: flex;
+    align-items: center;    
+}
+
+.site-article__link {
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    padding: 9px 16px;
+    font-size: 10px;
+    line-height: 15px;
+
+    text-decoration: none;
+    letter-spacing: -0.446429px;
+    
+    color: var(--main-text-color);
+    background-color: var(--main-circle-bg-color);
+    border-radius: 4px;
+}
+
+.site-article__link-textbox{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.site-article__link--apple:before {
+    display: inline-block;
+    width: 24.27px;
+    height: 28px;
+    margin-right: 12px;
+    background-image: url("../images/apple.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+.site-article__link--google-play::before {
+    display: inline-block;
+    width: 24.27px;
+    height: 28px;
+    margin-right: 12px;
+    background-image: url("../images/google-app-store.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.site-article__link-text--bold {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+
+    letter-spacing: -0.892857px;
+    
+    color: var(--main-text-color);
+}
+
+
+.site-article__circlebox {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 230px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1153px;
+}
+
+.site-article__circle {
+    display: inline-block;
+    width: 332px;
+    height: 332px;
+    opacity: 0.1;
+    border: 15px solid var(--main-circle-bg-color);
+    border-radius: 50%;
+}
+.site-article__circle:last-child {
+    background-color: var(--main-circle-bg-color);
+}
 
 
 /* PAGE 2: ABOUT-----------------------------------  */

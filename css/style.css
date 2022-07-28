@@ -1,0 +1,86 @@
+/* ROOT */
+:root{
+    --main-font-family: "Space Mono", "Courier New", monospace;
+    --description-font-family:  "Lexend Deca", "Arial", sans-serif;
+    --main-bold-font-weight: 700;
+    --description-font-weight: 400;
+    --main-body-bg-color: #fff;
+    --main-link-bg-color: #fcb72b;
+    --main-text-color: #495567;
+    --main-description-color: #939caa;
+    --main-details-bg-color: #F2F5F9;;
+}
+
+@font-face {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: 
+    url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), 
+    url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff"); 
+}
+
+
+@font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: 
+    url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"), 
+    url("../fonts/space-mono-v11-latin-700.woff") format("woff"); 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-bold-font-weight);
+    background-color: var(--main-body-bg-color);
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* PAGE 1: HOME-----------------------------------  */
+
+
+.site-main{
+    flex-grow: 1;
+}
+
+
+
+
+
+/* PAGE 2: ABOUT-----------------------------------  */
+
+
+
+
+/* PAGE 3: CAREERS-----------------------------------  */
+
+
+
+
+
+/* PAGE 4: LOCATION-----------------------------------  */

@@ -117,6 +117,9 @@ only screen and (                min-resolution: 2dppx) {
 .logo {
     margin-right: 28px;
 }
+.logo--white{
+    color: var(--main-body-bg-color);
+}
 .logo-img {
     width: 107.82px;
     height: 28.56px;
@@ -743,8 +746,9 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 0;
     color: #495567;
 }
-.faqs__inner {
-}
+/* .faqs__inner {
+} */
+
 .faqs__item {
     position: relative;
     width: 730px;

@@ -744,7 +744,7 @@ only screen and (                min-resolution: 2dppx) {
     letter-spacing: -1.78571px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #495567;
+    color: var(--main-text-color);
 }
 /* .faqs__inner {
 } */
@@ -754,7 +754,7 @@ only screen and (                min-resolution: 2dppx) {
     width: 730px;
     margin-bottom: 16px;
     padding: 32px 40px;
-    background-color: #F2F5F9;
+    background-color: var(--main-details-bg-color);
 }
 .faqs__item::after{
     position: absolute;
@@ -782,14 +782,14 @@ only screen and (                min-resolution: 2dppx) {
     line-height: 28px;
     letter-spacing: -1.07143px;
     list-style: none;
-    color: #495567;
+    color: var(--main-text-color);
 }
 .faqs__item-desc {
     font-family: var(--description-font-family);
     font-weight: var(--description-font-weight);
     font-size: 15px;
     line-height: 25px;
-    color: #495567;
+    color: var(--main-text-color);
 }
 
 /* PAGE 3: CAREERS-----------------------------------  */
@@ -802,10 +802,3 @@ only screen and (                min-resolution: 2dppx) {
 
 
 
-/* PAGE 3: CAREERS-----------------------------------  */
-
-
-
-
-
-/* PAGE 4: LOCATION-----------------------------------  */

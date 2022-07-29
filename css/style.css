@@ -225,6 +225,7 @@ only screen and (                min-resolution: 2dppx) {
 .description-app__item {
     width: 350px;
 }
+
 .description-app__item:nth-child(2) {
     margin: 0 15px;
 }

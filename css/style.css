@@ -84,7 +84,7 @@ body{
     left: 0;
     padding-top: 153px;
     padding-bottom: 152px;
-    background-image: url("../images/Hero-bg-img.jpg");
+    background-image: url("../images/Hero-bg-scoot.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -97,7 +97,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
     .hero-section{
-        background-image: url("../images/Hero-bg-img@2x.jpg");
+        background-image: url("../images/Hero-bg-scoot@2x.jpg");
     }
 }
 

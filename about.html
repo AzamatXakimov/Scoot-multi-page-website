@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>scoot-multi-page-website</title>
-
+    <title>Document</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
-
-    <!-- Header start -->
+    
+    <!-- Head\er start -->
     <header class="site-header">
         <div class="container">
             <div class="site-header__wrapper">
@@ -24,7 +23,7 @@
                     <nav class="sitenav">
                         <ul class="sitenav-list">
                             <li class="sitenav-item">
-                                <a class="sitenav-link" href="./about.html">About</a>
+                                <a class="sitenav-link" href="#">About</a>
                             </li>
                             <li class="sitenav-item">
                                 <a class="sitenav-link" href="#">Location</a>
@@ -40,123 +39,108 @@
         </div>
     </header>
     <!-- Header finish -->
-
+    
     <!-- Main start -->
     <main class="site-main">
         <!-- Hero section start  -->
-        <section class="hero-section">
+        <section class="about-hero">
             <div class="container">
-                <div class="hero-section__textbox">
-                    <h1 class="hero-section__text">
-                        Scooter sharing made simple
-                    </h1>
-                    <div class="hero-section__descriptionbox">
-                        <p class="hero-section__description">
-                            Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!
-                        </p>
-                        <a class="scoot-link" href="#">Get Scootin</a>
-                    </div>
-                </div>
-                <div class="hero-section__circlebox">
-                    <span class="hero-section__circle"></span>
-                    <span class="hero-section__circle"></span>
-                    <span class="hero-section__circle"></span>
-                </div>
+                <h2 class="about-hero__title">About</h2>
+                <ul class="about-hero__list">
+                    <li class="about-hero__item">
+                        <img class="about-hero__item-img" src="./images/phone.png" alt="phone photo with girl">
+                        <div class="about-hero__item-inner">
+                            <h3 class="about-hero__item-title">Mobility for the digital era</h3>
+                            <p class="about-hero__item-desc">Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips.</p>
+                        </div>
+                    </li>
+                    <li class="about-hero__item">
+                        <img class="about-hero__item-img" src="./images/bus.png" alt="bus photo">
+                        <div class="about-hero__item-inner">
+                            <h3 class="about-hero__item-title">Better urban living</h3>
+                            <p class="about-hero__item-desc">We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride.</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <!-- Hero section finish  -->
-
-        <section class="description-app">
+        
+        
+        
+        
+        <!-- our values section start  -->
+        <section class="our-values">
             <div class="container">
-                <h2 class="visually-hidden">About app</h2>
-                <span class="description-app__line"></span>
-                <ul class="description-app__list">
-                    <li class="description-app__item">
-                        <h3 class="description-app__text">
-                            Locate with app
-                        </h3>
-                        <p class="description-app__description">
-                            Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. 
-                        </p>
+                <h2 class="our-values__title">Our values</h2>
+                <ul class="our-values__list">
+                    <li class="our-values__item">
+                        <img class="our-values__item-img" src="./images/iphone.png" alt="decoration img">
+                        <span class="our-values__item-number">01</span>
+                        <h3 class="our-values__item-title">Our tech</h3>
+                        <p class="our-values__item-desc">We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
                     </li>
-                    <li class="description-app__item">
-                        <h3 class="description-app__text">
-                            Pick your scooter
-                        </h3>
-                        <p class="description-app__description">
-                            We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.
-                        </p>
+                    <li class="our-values__item">
+                        <img class="our-values__item-img" src="./images/motocicle.png" alt="decoration img">
+                        <span class="our-values__item-number">02</span>
+                        <h3 class="our-values__item-title">Our integrity</h3>
+                        <p class="our-values__item-desc">We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.</p>
                     </li>
-                    <li class="description-app__item">
-                        <h3 class="description-app__text">
-                            Enjoy the ride
-                        </h3>
-                        <p class="description-app__description">
-                            Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.
-                        </p>
-                    </li>
-                </ul>
-
-            </div>
-        </section>
-
-        <section class="our-advantages">
-            <div class="container">
-                <ul class="our-advantages__list">
-                    <li class="our-advantages__item">
-                        <img class="our-advantages__item-img" src="./images/order-by-phone.png" 
-                        width="445"
-                        height="445"
-                        srcset="./images/order-by-phone.png 1x , ./images/order-by-phone@2x.png 2x"
-                        alt="phone photo with boy">
-                        <div class="our-advantages__item-inner">
-                            <h3 class="our-advantages__item-title">
-                                Easy to use
-                                riding telemetry
-                            </h3>
-                            <p class="our-advantages__item-desc">
-                                The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.
-                            </p>
-                            <a class="scoot-link" href="#">Learn More</a>
-                        </div>
-                    </li>
-                    <li class="our-advantages__item">
-                        <img class="our-advantages__item-img" src="./images/city.png" 
-                        width="445"
-                        height="445"
-                        srcset="./images/city.png 1x , ./images/city@2x.png 2x"
-                        alt="city photo">
-                        <div class="our-advantages__item-inner">
-                            <h3 class="our-advantages__item-title">
-                                Coming to a city near you
-                            </h3>
-                            <p class="our-advantages__item-desc">
-                                Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.
-                            </p>
-                            <a class="scoot-link" href="#">Learn More</a>
-                        </div>
-                    </li>
-                    <li class="our-advantages__item">
-                        <img class="our-advantages__item-img" src="./images/cashe-back.png" 
-                        width="445"
-                        height="445"
-                        srcset="./images/cashe-back.png 1x , ./images/cashe-back@2x.png 2x"
-                        alt="cashe back photo">
-                        <div class="our-advantages__item-inner">
-                            <h3 class="our-advantages__item-title">
-                                Zero hassle payments
-                            </h3>
-                            <p class="our-advantages__item-desc">
-                                Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.
-                            </p>
-                            <a class="scoot-link" href="#">Learn More</a>
-                        </div>
+                    <li class="our-values__item">
+                        <img class="our-values__item-img" src="./images/peoples.png" alt="decoration img">
+                        <span class="our-values__item-number">03</span>
+                        <h3 class="our-values__item-title">Our community</h3>
+                        <p class="our-values__item-desc">We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.</p>
                     </li>
                 </ul>
             </div>
         </section>
-
-
+        <!-- our values section finish  -->
+        
+        <!-- faqs section start -->
+        <section class="faqs">
+            <div class="container">
+                <h2 class="faqs__title">FAQs</h2>
+                <div class="faqs__wrapper">
+                    <h3 class="faqs__text">How it works</h3>
+                    <div class="faqs__inner">
+                        <details class="faqs__item">
+                            <summary class="faqs__item-title">How do I download the app?</summary>
+                            <p class="faqs__item-desc">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.</p>
+                        </details>
+                        <details class="faqs__item">
+                            <summary class="faqs__item-title">Can I find a nearby Scoots?</summary>
+                            <p class="faqs__item-desc">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.</p>
+                        </details>
+                        <details class="faqs__item faqs__item--last-item">
+                            <summary class="faqs__item-title">Do I need a license to ride?</summary>
+                            <p class="faqs__item-desc">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.</p>
+                        </details>
+                    </div>
+                </div>
+                <div class="faqs__wrapper faqs__wrapper--safe-driving">
+                    <h3 class="faqs__text">Safe driving</h3>
+                    <div class="faqs__inner">
+                        <details class="faqs__item">
+                            <summary class="faqs__item-title">Should I wear a helmet?</summary>
+                            <p class="faqs__item-desc">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                        </details>
+                        <details class="faqs__item">
+                            <summary class="faqs__item-title">How about the rules & regulations?</summary>
+                            <p class="faqs__item-desc">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                        </details>
+                        <details class="faqs__item faqs__item--last-item">
+                            <summary class="faqs__item-title">What if I damage my Scoot?</summary>
+                            <p class="faqs__item-desc">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faqs section finish -->
+        
+        
+        <!-- site article start -->
         <article class="site-article">
             <div class="container">
                 <div class="site-article__box">
@@ -187,10 +171,12 @@
                 </div>
             </div>
         </article>
+        <!-- site article finish -->
+        
     </main>
     <!-- Main finish  -->
-
-    <!-- Footer start -->
+    
+    <!-- site footer start -->
     <footer class="site-footer">
         <div class="container">
             <div class="site-footer__box">
@@ -199,18 +185,18 @@
                 </a>
                 <nav class="sitenav">
                     <ul class="sitenav-list">
-                    <li class="sitenav-item">
-                        <a class="sitenav-link" href="#">About</a>
+                        <li class="sitenav-item">
+                            <a class="sitenav-link" href="#">About</a>
                         </li>
                         <li class="sitenav-item">>
                             <a class="sitenav-link" href="#">Location</a>
                         </li>
                         <li class="sitenav-item">
-                        <a class="sitenav-link" href="#">Careers</a>
+                            <a class="sitenav-link" href="#">Careers</a>
                         </li>
                     </ul>
                 </nav>
-
+                
                 <ul class="site-footer__list">
                     <li class="site-footer__item">
                         <a class="site-footer__link" href="#">
@@ -231,6 +217,6 @@
             </div>
         </div>
     </footer>
-    <!-- Footer finish -->
+    <!-- site footer finish -->
 </body>
 </html>

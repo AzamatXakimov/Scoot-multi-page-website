@@ -144,6 +144,9 @@ only screen and (                min-resolution: 2dppx) {
     text-decoration: none;
 }
 
+.sitenav-link:hover{
+    color: #FCB72B;
+}
 
 .hero-section__textbox {
     width: 500px;
@@ -930,6 +933,50 @@ only screen and (                min-resolution: 2dppx) {
 
 
 /* PAGE 4: LOCATION-----------------------------------  */
+.map{
+    padding: 120px 0;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+}
+.hero-section--img{
+    padding: 72px 0 60px 0;
+    background-repeat: repeat;
+    background-position: calc(50% - 88px);
+    background-image: url("../images/location-bg.jpg");
+    background-size: contain;
+}
 
+.hero-section__circlebox--oval{
+    position: absolute;
+    bottom: 81px;
+    left: calc(50% + 512px);
+}
 
-
+.your-city {
+    padding-bottom: 120px;
+}
+.your-city__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.your-city__title {
+    width: 351px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0;
+    color: #495567;
+}
+.your-city__desc {
+    font-family: 'Lexend Deca';
+    width: 445px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+    color: #939CAA;
+    
+}

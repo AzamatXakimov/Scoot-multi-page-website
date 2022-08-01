@@ -794,7 +794,138 @@ only screen and (                min-resolution: 2dppx) {
 
 /* PAGE 3: CAREERS-----------------------------------  */
 
+.careers-hero {
+    padding-top: 320px;
+    padding-bottom: 60px;
+    background-image: url("../images/careers-hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain 200px;
+}
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .careers-hero{
+        background-image: url("../images/careers-hero-bg@2x.jpg");
+    }
+}
+
+.careers-hero__box {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.careers-hero__box::before {
+    position: absolute;
+    top: 273px;
+    right: -210px;
+    width: 743px;
+    height: 171px;
+    z-index: 1;
+    background-image: url("../images/to-left-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+.careers-hero__box::after {
+    position: absolute;
+    right: -510px;
+    width: 445px;
+    height: 445px;    
+    background-color: var(--main-circle-bg-color);
+    border-radius: 50%;
+    content: "";
+}
+
+.careers-hero__item-img {
+    width: 445px;
+    height: 445px;
+}
+
+.careers-hero__item-inner {
+    width: 445px;
+}
+
+.careers-hero__item-title {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    margin-top: 0;margin-bottom: 24px;
+    color: var(--main-text-color);
+}
+
+.careers-hero__item-desc {
+    font-family: var(--description-font-family);
+    font-weight: var(--description-font-weight);
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: var(--main-description-color);
+}
+
+.categories {
+    padding-top: 60px;
+    padding-bottom: 160px;
+}
+
+.categories__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.categories__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-top: 32px;
+    padding-right: 64px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    background-color: var(--main-details-bg-color);
+}
+.categories__item:last-child {
+    margin-bottom: 0;
+}
+
+.categories__textbox {
+    margin-right: 15px;
+}
+
+.categories__text {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: -1.07143px;
+    
+    color: var(--main-text-color);
+}
+
+.categories__desc {
+    margin: 0;
+    font-family: var(--description-font-family);
+    font-weight: var(--description-font-weight);
+    font-size: 15px;
+    line-height: 25px;
+
+    
+    color: var(--main-text-color);
+}
 
 
 
